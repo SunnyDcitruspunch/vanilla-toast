@@ -1,0 +1,13 @@
+.toast-message {
+  position: fixed;
+  height: 50px;
+  min-width: 200px;
+  top: 500px;
+  left: 10px;
+  border: 1px solid fuchsia;
+  transition: 1s opacity ease-out;
+}
+
+#example-message {
+  opacity: 0;
+}

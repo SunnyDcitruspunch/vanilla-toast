@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form class="toast-form">
+    <label for="title" aria-label="title-label">Title</label>
+    <input type="text" id="title" name="title" aria-label="title-input" />
+
+    <label htmlFor="description" for="description">Description</label>
+    <input type="text" name="description" aria-label="description-input" id="description" />
+    <button class="message-btn" type="submit">Create a toast message!</button>
+  </form>
+  <div class="toast-message" id="example-message">
+    <div class="title"></div>
+    <div class="description"></div>
+    <button class="close-button">X</button>
+  </div>
+</body>
+</html>
